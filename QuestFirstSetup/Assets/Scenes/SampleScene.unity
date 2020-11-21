@@ -436,6 +436,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &746289794
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2388840980970889179, guid: c68967d8398452a418600b0e48905df0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.789867
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388840980970889179, guid: c68967d8398452a418600b0e48905df0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388840980970889179, guid: c68967d8398452a418600b0e48905df0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.6138964
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388840980970889179, guid: c68967d8398452a418600b0e48905df0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388840980970889179, guid: c68967d8398452a418600b0e48905df0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388840980970889179, guid: c68967d8398452a418600b0e48905df0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388840980970889179, guid: c68967d8398452a418600b0e48905df0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388840980970889179, guid: c68967d8398452a418600b0e48905df0, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388840980970889179, guid: c68967d8398452a418600b0e48905df0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388840980970889179, guid: c68967d8398452a418600b0e48905df0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388840980970889179, guid: c68967d8398452a418600b0e48905df0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388840980970889182, guid: c68967d8398452a418600b0e48905df0, type: 3}
+      propertyPath: m_Name
+      value: Teleport Reticle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c68967d8398452a418600b0e48905df0, type: 3}
 --- !u!1 &794885155
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,7 +1380,7 @@ MonoBehaviour:
   m_SmoothMovement: 0
   m_FollowTightness: 10
   m_SnapThresholdDistance: 10
-  m_Reticle: {fileID: 0}
+  m_Reticle: {fileID: 1569641905}
   m_StopLineAtFirstRaycastHit: 1
 --- !u!120 &1243778411
 LineRenderer:
@@ -1470,22 +1527,22 @@ MonoBehaviour:
   m_AudioClipForOnHoverEnter: {fileID: 0}
   m_PlayAudioClipOnHoverExit: 0
   m_AudioClipForOnHoverExit: {fileID: 0}
-  m_PlayHapticsOnSelectEnter: 0
-  m_HapticSelectEnterIntensity: 0
-  m_HapticSelectEnterDuration: 0
+  m_PlayHapticsOnSelectEnter: 1
+  m_HapticSelectEnterIntensity: 0.3
+  m_HapticSelectEnterDuration: 0.1
   m_PlayHapticsOnSelectExit: 0
   m_HapticSelectExitIntensity: 0
   m_HapticSelectExitDuration: 0
-  m_PlayHapticsOnHoverEnter: 0
-  m_HapticHoverEnterIntensity: 0
-  m_HapticHoverEnterDuration: 0
+  m_PlayHapticsOnHoverEnter: 1
+  m_HapticHoverEnterIntensity: 0.1
+  m_HapticHoverEnterDuration: 0.1
   m_PlayHapticsOnHoverExit: 0
   m_HapticHoverExitIntensity: 0
   m_HapticHoverExitDuration: 0
-  m_LineType: 0
+  m_LineType: 1
   m_MaxRaycastDistance: 30
   m_ReferenceFrame: {fileID: 0}
-  m_Velocity: 16
+  m_Velocity: 8
   m_Acceleration: 9.8
   m_AdditionalFlightTime: 0.5
   m_EndPointDistance: 30
@@ -1501,7 +1558,7 @@ MonoBehaviour:
   m_RaycastTriggerInteraction: 1
   m_HoverToSelect: 0
   m_HoverTimeToSelect: 0.5
-  m_EnableUIInteraction: 1
+  m_EnableUIInteraction: 0
 --- !u!114 &1243778413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1557,6 +1614,11 @@ Transform:
   m_Father: {fileID: 1619874205}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1569641905 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2388840980970889182, guid: c68967d8398452a418600b0e48905df0, type: 3}
+  m_PrefabInstance: {fileID: 746289794}
+  m_PrefabAsset: {fileID: 0}
 --- !u!850595691 &1619381197
 LightingSettings:
   m_ObjectHideFlags: 0
