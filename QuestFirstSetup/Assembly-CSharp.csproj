@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\HandPresence.cs" />
     <Compile Include="Assets\Scripts\LocomotionController.cs" />
+    <Compile Include="Assets\Scripts\ContinuousMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
