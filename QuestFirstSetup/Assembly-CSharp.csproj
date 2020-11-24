@@ -59,7 +59,10 @@
     <Compile Include="Assets\Scripts\ContinuousMovement.cs" />
     <Compile Include="Assets\Scripts\HandPresence.cs" />
     <Compile Include="Assets\Scripts\LocomotionController.cs" />
+    <Compile Include="Assets\Scripts\Gun.cs" />
     <Compile Include="Assets\Nokobot\Modern Guns - Handgun\_Demo Assets\SimpleShoot.cs" />
+    <Compile Include="Assets\Scripts\Lightsaber.cs" />
+    <Compile Include="Assets\Scripts\XROffsetGrabInteractable.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Nokobot\Modern Guns - Handgun\README.txt" />
