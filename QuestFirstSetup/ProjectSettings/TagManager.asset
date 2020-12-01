@@ -19,7 +19,7 @@ TagManager:
   - PlayerBody
   - Bullet
   - GrabIgnoreRay
-  - 
+  - SecondHandGrab
   - 
   - 
   - 
