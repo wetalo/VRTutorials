@@ -56,25 +56,26 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\MovementRecognizer.cs" />
     <Compile Include="Assets\Scripts\Climber.cs" />
+    <Compile Include="Assets\PDollar\Scripts\PDollarGestureRecognizer\Point.cs" />
     <Compile Include="Assets\Scripts\TwoHandGrabInteractable.cs" />
     <Compile Include="Assets\Scripts\FollowToTheSide.cs" />
     <Compile Include="Assets\Scripts\Lightsaber.cs" />
     <Compile Include="Assets\Scripts\XROffsetGrabInteractable.cs" />
     <Compile Include="Assets\Scripts\ContinuousMovement.cs" />
-    <Compile Include="Assets\Scripts\HandPresence.cs" />
-    <Compile Include="Assets\Scripts\LocomotionController.cs" />
-    <Compile Include="Assets\Scripts\Gun.cs" />
-    <Compile Include="Assets\Scripts\ClimbInteractable.cs" />
-    <Compile Include="Assets\Nokobot\Modern Guns - Handgun\_Demo Assets\SimpleShoot.cs" />
-    <Compile Include="Assets\PDollar\Scripts\PDollarGestureRecognizer\Point.cs" />
     <Compile Include="Assets\PDollar\Scripts\PDollarGestureRecognizer\Geometry.cs" />
     <Compile Include="Assets\PDollar\Scripts\PDollarGestureRecognizer\Result.cs" />
+    <Compile Include="Assets\Scripts\HandPresence.cs" />
     <Compile Include="Assets\PDollar\Scripts\Demo.cs" />
+    <Compile Include="Assets\Scripts\LocomotionController.cs" />
     <Compile Include="Assets\PDollar\Scripts\PDollarGestureRecognizer\Gesture.cs" />
+    <Compile Include="Assets\Scripts\Gun.cs" />
     <Compile Include="Assets\PDollar\Scripts\PDollarGestureRecognizer\PointCloudRecognizer.cs" />
+    <Compile Include="Assets\Scripts\ClimbInteractable.cs" />
     <Compile Include="Assets\PDollar\Scripts\PDollarGestureRecognizer\GestureIO.cs" />
-    <Compile Include="Assets\Scripts\MovementRecognizer.cs" />
+    <Compile Include="Assets\Nokobot\Modern Guns - Handgun\_Demo Assets\SimpleShoot.cs" />
+    <Compile Include="Assets\Scripts\ObjectSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\PDollar\Resources\GestureSet\10-stylus-MEDIUM\10-stylus-medium-exclamation_point-01.xml" />
